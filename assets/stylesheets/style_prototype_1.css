@@ -1,0 +1,192 @@
+.calendar-container {
+    display: grid;
+    grid-template-columns: 0.2fr repeat(10, 1fr) 0.2fr;
+    grid-template-rows: 1.2fr 1.4fr repeat(8, 1fr) 1.4fr 1fr;
+    grid-column-gap: 3px;
+    grid-row-gap: 6px;
+    position: relative;
+    }
+
+    .calendar-days {
+        background-color: green;
+        border: 1px solid black;
+        width: 160px;
+        height:160px;
+        color: black;
+    }
+    
+    .day-number {
+
+     font-size:20px;
+     padding: 10px;
+     font-weight: bold;
+
+    }
+    
+    #calendar-day1 {
+         grid-area: 5 / 3 / 6 / 4; 
+    }
+    #calendar-day2 {
+         grid-area: 5 / 4 / 6 / 5; 
+    }
+    #calendar-day3 {
+         grid-area: 5 / 5 / 6 / 6; 
+    }
+    #calendar-day4 {
+         grid-area: 5 / 6 / 6 / 7; 
+    }
+    #calendar-day5 {
+         grid-area: 5 / 7 / 6 / 8; 
+    }
+    #calendar-day6 {
+         grid-area: 5 / 8 / 6 / 9; 
+    }
+    #calendar-day7 {
+         grid-area: 5 / 9 / 6 / 10; 
+    }
+    #calendar-day8 {
+         grid-area: 6 / 3 / 7 / 4; 
+    }
+    #calendar-day9 {
+         grid-area: 6 / 4 / 7 / 5; 
+    }
+    #calendar-day10 {
+         grid-area: 6 / 5 / 7 / 6; 
+    }
+    #calendar-day11 {
+         grid-area: 6 / 6 / 7 / 7; 
+    }
+    #calendar-day12 {
+         grid-area: 6 / 7 / 7 / 8; 
+    }
+    #calendar-day13 {
+         grid-area: 6 / 8 / 7 / 9; 
+    }
+    #calendar-day14 {
+         grid-area: 6 / 9 / 7 / 10; 
+    }     
+    #calendar-day15 {
+         grid-area: 7 / 3 / 8 / 4; 
+    }
+    #calendar-day16 {
+         grid-area: 7 / 4 / 8 / 5; 
+    }
+    #calendar-day17 {
+         grid-area: 7 / 5 / 8 / 6; 
+    }
+    #calendar-day18 {
+         grid-area: 7 / 6 / 8 / 7; 
+    }
+    #calendar-day19 {
+         grid-area: 7 / 7 / 8 / 8; 
+    }
+    #calendar-day20 {
+         grid-area: 7 / 8 / 8 / 9; 
+    }
+    #calendar-day21 {
+         grid-area: 7 / 9 / 8 / 10; 
+    }
+    #calendar-day22 {
+         grid-area: 8 / 3 / 9 / 4; 
+    }
+    #calendar-day23 {
+         grid-area: 8 / 4 / 9 / 5; 
+    }
+    #calendar-day24 {
+         grid-area: 8 / 5 / 9 / 6; 
+    }
+    #calendar-day25 {
+         grid-area: 8 / 6 / 9 / 7; 
+    }
+    #calendar-day26 {
+         grid-area: 8 / 7 / 9 / 8; 
+    }
+    #calendar-day27 {
+         grid-area: 8 / 8 / 9 / 9; 
+    }
+    #calendar-day28 {
+         grid-area: 8 / 9 / 9 / 10; 
+    }
+    #calendar-day29 {
+         grid-area: 9 / 3 / 10 / 4; 
+    }
+    #calendar-day30 {
+         grid-area: 9 / 4 / 10 / 5; 
+    }
+    #calendar-day31 {
+         grid-area: 9 / 5 / 10 / 6; 
+    }
+    .calendar-forms {
+         grid-area: 3 / 11 / 11 / 12; 
+         background-color: royalblue;
+    }
+    .calendar-header {
+         grid-area: 2 / 3 / 3 / 10; 
+         position:relative;
+         padding: 50px;
+         margin: 50px;
+         text-align: center;
+         size:200px;
+
+    }
+    .calendar-footer {
+         grid-area: 12 / 2 / 13 / 12; 
+         background-color:purple;
+     }
+
+     .calendar-month{
+
+          font-size:50px;
+          color:black;
+          text-align: center;
+          padding: 40px;
+     }
+    
+    .header-buttons {
+     text-decoration: none;
+     display: inline-block;
+     font-size:40px;
+     border: 1px solid black;
+
+   }
+   
+   .header-buttons:hover {
+     background-color: black;
+     color:white;
+     
+   }
+   
+   #previous-round {
+
+     background-color: black; 
+     color: white;
+     border-radius: 50%;
+     /* position:absolute;
+     top: 0px;
+     left: 0px;
+     border: 2px solid black;
+     margin-right:50%;
+     margin-top:5%;
+     text-align:center;
+      */
+
+   }
+   
+   #next-round {
+     
+     background-color: black;
+     color: white;
+     border-radius: 50%;
+     /* position: absolute; */
+     /* top: 0px;
+     right: 0px;
+     border: 2px solid black;
+     margin-left:75px;
+     margin-top:5%;
+     text-align:center; */
+ 
+
+     
+
+   }
+   
